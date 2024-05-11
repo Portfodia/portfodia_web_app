@@ -37,6 +37,8 @@ Before starting work on a new feature, always pull the latest changes from the s
 
 MERGING WITH PRODUCTION SHOULD NEVER BE DONE DIRECTLY. ALWAYS MERGE WITH STAGING FIRST.
 
+PLEASE DO NOT PUSH TO STAGING, BEFORE PUSHING, ENSURE YOU'RE NOT ON THE STAGING BRANCH.
+
 Upon finishing a part of the project pull request to production from staging will be created and merged.
 
 To pull the latest changes from the staging branch, run:
