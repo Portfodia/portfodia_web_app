@@ -25,6 +25,9 @@ const config: Config = {
                 'secondary': '#FB6D3A',
                 'bg': '#f2ebff',
                 'graybtn': '#626262',
+            },
+            width: {
+                'google': '1px'
             }
         },
     },
