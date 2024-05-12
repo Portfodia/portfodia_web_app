@@ -16,6 +16,7 @@ const config: Config = {
             height: {
                 'h-screen:': '100vh',
                 'h-70': '70%',
+                'h-90': '90%'
             },
             fontSize: {
                 'login': '17px'
