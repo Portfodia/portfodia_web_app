@@ -1,1 +1,1 @@
-import React from 'react';import {LoginPage} from "@components"const Login: React.FC = () => {    return (<>            <LoginPage/>        </>);};export default Login;
+import React from 'react';import {LoginPage} from "../components/login/login-page";const Login: React.FC = () => {    return (<>        <LoginPage/>    </>);};export default Login;

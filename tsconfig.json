@@ -3,7 +3,7 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext",
+      "esnext"
     ],
     "baseUrl": "./src",
     "allowJs": true,
@@ -33,7 +33,7 @@
         "pages"
       ],
       "@constants": [
-        "constants"
+        "constants/*"
       ]
     }
   },
