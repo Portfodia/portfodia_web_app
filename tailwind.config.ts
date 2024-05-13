@@ -7,6 +7,13 @@ const config: Config = {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        screens:{
+            xs: "300px",
+            sm: "640px",
+            md: "768px",
+            xl: "1280px",
+            ["2xl"]: "1530px" 
+          },
         extend: {
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -28,7 +35,11 @@ const config: Config = {
             },
             width: {
                 'google': '1px'
-            }
+            },
+            fontFamily: {
+                'satoshi': ['Satoshi', 'sans-serif'],
+
+              }
         },
     },
     plugins: [],
