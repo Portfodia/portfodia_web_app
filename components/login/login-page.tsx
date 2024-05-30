@@ -57,9 +57,9 @@ export const LoginPage: React.FC = () => {
                     New to Portfodia? <a href="#" className="text-primary">Create an account</a>
                 </p>
                 <p className="flex items-center text-sm justify-between">
-                    <hr className="flex-grow h-0.5 bg-gray-500 mx-2"/>
+                    {/* <hr className="flex-grow h-0.5 bg-gray-500 mx-2"/> */}
                     <span>or</span>
-                    <hr className="flex-grow h-0.5 bg-gray-500 mx-2"/>
+                    {/* <hr className="flex-grow h-0.5 bg-gray-500 mx-2"/> */}
                 </p>
 
                 <button
