@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
+
 // import forgetpass from "../../public/images/forgetpass.png"
 import signup_image from "../../public/images/signup_image.png"
 import Logo from "../../public/images/portfodia.png"
@@ -78,7 +80,9 @@ export const SignUpPage: React.FC = () => {
                <div className='flex flex-col gap-3 pt-5 w-full'>
                <p className="2xl:text-[23.29px] xl:text-[20px] md:text-sm xs:text-sm  font-[500]">
                 Have an account already? 
-                    <a href="#" className="text-primary">Sign in</a>
+                <Link href="/login" className="text-primary ">Sign in</Link>
+
+                   
                 </p>
                 <small>Or Sign in with</small>
                 <button

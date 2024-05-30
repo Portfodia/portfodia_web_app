@@ -54,7 +54,9 @@ export const LoginPage: React.FC = () => {
                     </div>
                 </form>
                 <p className="text-sm">
-                    New to Portfodia? <a href="#" className="text-primary">Create an account</a>
+                    New to Portfodia? 
+                    <Link href="/signup" className="text-primary ">Create an account</Link>
+
                 </p>
                 <p className="flex items-center text-sm justify-between">
                     {/* <hr className="flex-grow h-0.5 bg-gray-500 mx-2"/> */}
