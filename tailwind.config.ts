@@ -12,6 +12,7 @@ const config: Config = {
             sm: "640px",
             md: "768px",
             xl: "1280px",
+            lg: "1335px",
             ["2xl"]: "1530px" 
           },
         extend: {
@@ -32,6 +33,20 @@ const config: Config = {
                 'secondary': '#FB6D3A',
                 'bg': '#f2ebff',
                 'graybtn': '#626262',
+                'white': '#ffffff',
+                'lightPurple': '#C3A5FF',
+                'middlePurple': '#7E3BFF',
+                'deepPurple': '#3B00AF',
+                'black': '#000000',
+                'lightGray': '#F6F6F6',
+                'middleGray': '#ECE2FF',
+                'deepGray':'#676767',
+                'deepBlue': '#402C67',
+                'green': '#00C75C',
+                'lightOrange': "#FFF6D7",
+                'thinPurple': '#EBE1FF',
+                'boldPurple': '#27004E',
+                'lightGreen': '#00C75C',
             },
             width: {
                 'google': '1px'
