@@ -80,11 +80,11 @@ export const SignUpPage: React.FC = () => {
                <div className='flex flex-col gap-3 pt-5 w-full'>
                <p className="2xl:text-[23.29px] xl:text-[20px] md:text-sm xs:text-sm  font-[500]">
                 Have an account already? 
-                <Link href="/login" className="text-primary ">Sign in</Link>
+                <Link href="/login" className="text-primary ">Sign Up</Link>
 
                    
                 </p>
-                <small>Or Sign in with</small>
+                <small>Or Sign Up with</small>
                 <button
                     className="2xl:text-[23.29px] xl:text-[20px] md:text-sm xs:text-sm   hover:opacity-55 rounded text-login border border-[#24242471] py-1 px-2  w-full focus:outline-none focus:shadow-outline 2xl:h-[59.39px] md:h-[50px] xs:h-[40px]  flex items-center justify-center gap-4"
                     type="button">

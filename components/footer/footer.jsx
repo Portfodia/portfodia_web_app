@@ -6,7 +6,7 @@ import { FaPinterest } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
 const Footer = () => {
     return ( 
-        <div>
+        <div className=" bg-[#F5F5F5]">
             <div className="flex md:items-center md:flex-row flex-col md:justify-between md:gap-0 gap-5 md:px-20   pt-20 pb-6">
                 <div>
                     <img src="images/portfodia.png" className="w-32  px-4 md:px-0" alt="" />
