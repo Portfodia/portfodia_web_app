@@ -46,11 +46,7 @@ export const LoginPage: React.FC = () => {
                         </div>
                     </div>
                     <div className="flex items-center justify-between">
-                        <button
-                            className="bg-primary hover:opacity-55 rounded text-login text-white font-bold py-1 px-2  w-full focus:outline-none focus:shadow-outline"
-                            type="button">
-                            Sign In
-                        </button>
+                        <Link className='bg-primary hover:opacity-55 rounded text-login text-white font-bold py-1 px-2 text-center w-full focus:outline-none focus:shadow-outline' href="/loggedInPage">Sign In</Link>
                     </div>
                 </form>
                 <p className="text-sm">

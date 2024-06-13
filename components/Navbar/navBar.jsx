@@ -19,27 +19,27 @@ const Navbar = () => {
 
     return ( 
         <nav className="sticky top-0 bg-white">
-            <div className="flex items-center justify-between lg:px-20 px-3 py-3">
-            <IoMenuOutline
-                className="visible lg:invisible cursor-pointer lg:absolute  text-[27px] text-deepPurple"
-                onClick={toggleMenu}
-            />
-                <ul className="lg:flex items-center gap-6 hidden">
+            <div className="flex items-center justify-between lg:px-20 md:px-10 px-3 py-3">
+                <IoMenuOutline
+                    className="visible md:invisible cursor-pointer md:absolute  text-[27px] text-deepPurple"
+                    onClick={toggleMenu}
+                />
+                <ul className="md:flex items-center gap-6 hidden">
                     <li className="flex items-center gap-1">
-                        <a href="#" className="text-[1.2rem] font-semibold">Portfolio</a>
+                        <a href="#" className="lg:text-[1.2rem] md:text-[0.9rem] font-semibold">Portfolio</a>
                         <FaCaretDown onClick={togglePortfolio} className="cursor-pointer" />
                     </li>
-                    <li><a href="#" className="text-[1.2rem] font-semibold">About</a></li>
-                    <li><a href="#" className="text-[1.2rem] font-semibold">Career</a></li>
-                    <li><a href="#" className="text-[1.2rem] font-semibold">Go Pro</a></li>
+                    <li><a href="#" className="lg:text-[1.2rem] md:text-[0.9rem] font-semibold">About</a></li>
+                    <li><a href="#" className="lg:text-[1.2rem] md:text-[0.9rem] font-semibold">Career</a></li>
+                    <li><a href="#" className="lg:text-[1.2rem] md:text-[0.9rem] font-semibold">Go Pro</a></li>
                 </ul>
 
                 {/* toggle-portfolio */}
                 {portfolioVisible && (
-                    <div className="bg-white rounded-lg p-6 absolute top-24">
-                        <ul className="flex flex-col gap-4">
-                            <li><a href="#">Build Portfolio</a></li>
-                            <li><a href="#">Find Portfolio</a></li>
+                    <div className="bg-white rounded-lg lg:p-6 md:p-3 absolute p-2 top-24">
+                        <ul className="flex flex-col lg:gap-4 md:gap-1">
+                            <li><a href="#" className="md:text-[0.8rem] lg:text-[1rem] text-sm">Build Portfolio</a></li>
+                            <li><a href="#" className="md:text-[0.8rem] lg:text-[1rem] text-sm">Find Portfolio</a></li>
                         </ul>
                     </div>
                 )}
